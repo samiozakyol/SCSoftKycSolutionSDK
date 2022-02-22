@@ -1,0 +1,11 @@
+framework module SCSoftKycSolutionSDK {
+  umbrella header "SCSoftKycSolutionSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SCSoftKycSolutionSDK.Swift {
+    header "SCSoftKycSolutionSDK-Swift.h"
+    requires objc
+}
